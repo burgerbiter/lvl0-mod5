@@ -18,4 +18,15 @@ if __name__ == '__main__':
     #     prints it. The for loop should repeat 10 times.
     #  4. Now try to figure out how to change the variables before the for
     #     loop repeats so the sequence of numbers is correct.
+    num1=0
+    num2=1
+    num3=1
+    for i in range(10):
+        print(num1)
+        print(num2)
+        print(num3)
+        num1=num2+num3
+        num2=num3+num1
+        num3=num1+num2
+
     pass
